@@ -1,0 +1,32 @@
+
+{
+    "name": "ivosk89/rbs360-api-xml",
+    "type": "extension",
+    "description": "RBS 360 API XML",
+    "keywords": [
+        "rbs360",
+        "xml",
+        "api"
+    ],
+    "homepage": "https://github.com/ivosk89/rbs360-api-xml",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Alexey Arabadzhi",
+            "email": "borlano7@gmail.com"
+        }
+    ],
+    "version": "1.0.2",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ivosk89\\api_xml\\": "src/"
+        }
+    },
+    "require": {
+        "php": "7.*",
+        "ext-curl": "*",
+        "ext-http": "*",
+        "ext-simplexml": "*"
+    }
+}
